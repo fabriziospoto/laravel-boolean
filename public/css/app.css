@@ -10899,3 +10899,8 @@ a.text-dark:focus {
   }
 }
 
+.card-box {
+  width: 80%;
+  margin: 0 auto;
+}
+
