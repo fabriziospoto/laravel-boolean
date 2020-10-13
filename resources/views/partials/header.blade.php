@@ -6,13 +6,13 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
+      <li class="nav-item {{ (url()->current() == route('StaticPage.home')) ? 'active' : ''}}">
         <a class="nav-link" href="{{route('StaticPage.home')}}">Home</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {{ (url()->current() == route('StaticPage.chisiamo')) ? 'active' : ''}}">
         <a class="nav-link" href="{{route('StaticPage.chisiamo')}}">Chi siamo</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {{ (url()->current() == route('Students.studenti')) ? 'active' : ''}}">
         <a class="nav-link" href="{{route('Students.studenti')}}">Studenti</a>
       </li>
     </ul>
