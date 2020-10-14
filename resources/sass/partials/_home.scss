@@ -1,0 +1,41 @@
+.home-contain {
+    background-color: $white;
+    .home-c {
+        width: 80%;
+        margin: 0 10%;
+        .home-l, .home-r {
+            width: 50%;
+            height: 500px;
+            float: left;
+        }
+        .home-l .cta h1 {
+            color: $boolGreen;
+            font-weight: 700;
+            font-size: 50px;
+            margin-top: 70px;
+        }
+        .home-l .cta-2 h4 {
+            color: $boolBlue;
+            font-weight: 700;
+            font-size: 27px;
+            margin-bottom: 30px;
+        }
+        .details .details-box p span i {
+            color: $boolGreen;
+            margin-right: 10px;
+        }
+        .details .details-box p {
+            color: $boolBlue;
+            line-height: 30px;
+            margin: 0;
+        }
+        .home-r {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            & img {
+                width: 400px;
+            }
+        }
+    }
+}

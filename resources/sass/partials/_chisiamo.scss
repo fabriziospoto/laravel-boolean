@@ -1,0 +1,27 @@
+.jumbotrons {
+    width: 100%;
+    height: 500px;
+    background-color: $boolGrey;
+    .jumbo {
+        width: 80%;
+        margin: 0 auto;
+        .jumbo-l, .jumbo-r {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        .jumbo-r {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .j {
+                width: 90%;
+                img {
+                    width: 100%;
+                }
+            }
+
+        }
+
+    }
+}

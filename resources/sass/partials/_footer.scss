@@ -1,0 +1,44 @@
+.footer-contain {
+    width: 100%;
+    height: 300px;
+    background-color:  $boolBlue;
+    .footer-c {
+        width: 80%;
+        margin: 0 10%;
+        .bool-logo {
+            width: 100%;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            .foot-img img {
+                width: 170px;
+            }
+            .line {
+                width: 650px;
+                height: 3px;
+                position: absolute;
+                right: 0;
+                background-color: $white;
+            }
+        }
+        .foot {
+            width: 100%;
+            .foot-box {
+                width: 25%;
+                height: 210px;
+                float: left;
+                h5 {
+                    color: $white;
+                }
+                .title {
+                    color: $boolGreen;
+                }
+            }
+            .right {
+                text-align: right;
+            }
+        }
+    }
+}

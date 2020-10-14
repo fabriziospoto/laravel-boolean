@@ -1,0 +1,19 @@
+nav, .bg-light {
+    height: $navHeight;
+    background-color: $white !important;
+    .nav-c {
+        width: 80%;
+        height: 100%;
+        max-width: 1200px;
+        margin: 0 10%;
+        display: flex;
+        align-items: center;
+        a img {
+            width: 250px;
+        }
+        #nav-font1, #nav-font2, #nav-font3 {
+            color: $boolBlue;
+            font-size: 18px;
+        }
+    }
+}
